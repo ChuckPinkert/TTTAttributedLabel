@@ -1,1 +1,3 @@
-sharpie bind --output=TTTAttributedLabel --namespace=TTTAttributedLabel --sdk=iphoneos8.3 StaticTTTLabelSDK.a
+
+Xamarin binding of TTTAttributedLabel at https://github.com/TTTAttributedLabel/TTTAttributedLabel.
+
