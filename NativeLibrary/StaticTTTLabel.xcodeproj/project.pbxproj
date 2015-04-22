@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		136AC86B1AE07822000F0007 /* libStaticTTTLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 136AC85F1AE07822000F0007 /* libStaticTTTLabel.a */; };
+		136AC87B1AE07875000F0007 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 136AC87A1AE07875000F0007 /* TTTAttributedLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		136AC86C1AE07822000F0007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 136AC8571AE07822000F0007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 136AC85E1AE07822000F0007;
+			remoteInfo = StaticTTTLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		136AC85D1AE07822000F0007 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		136AC85F1AE07822000F0007 /* libStaticTTTLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStaticTTTLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		136AC86A1AE07822000F0007 /* StaticTTTLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaticTTTLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		136AC8701AE07822000F0007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136AC8791AE07875000F0007 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		136AC87A1AE07875000F0007 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		136AC85C1AE07822000F0007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136AC8671AE07822000F0007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136AC86B1AE07822000F0007 /* libStaticTTTLabel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		136AC8561AE07822000F0007 = {
+			isa = PBXGroup;
+			children = (
+				136AC8611AE07822000F0007 /* StaticTTTLabel */,
+				136AC86E1AE07822000F0007 /* StaticTTTLabelTests */,
+				136AC8601AE07822000F0007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		136AC8601AE07822000F0007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				136AC85F1AE07822000F0007 /* libStaticTTTLabel.a */,
+				136AC86A1AE07822000F0007 /* StaticTTTLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		136AC8611AE07822000F0007 /* StaticTTTLabel */ = {
+			isa = PBXGroup;
+			children = (
+				136AC8791AE07875000F0007 /* TTTAttributedLabel.h */,
+				136AC87A1AE07875000F0007 /* TTTAttributedLabel.m */,
+			);
+			path = StaticTTTLabel;
+			sourceTree = "<group>";
+		};
+		136AC86E1AE07822000F0007 /* StaticTTTLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				136AC86F1AE07822000F0007 /* Supporting Files */,
+			);
+			path = StaticTTTLabelTests;
+			sourceTree = "<group>";
+		};
+		136AC86F1AE07822000F0007 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				136AC8701AE07822000F0007 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		136AC85E1AE07822000F0007 /* StaticTTTLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136AC8731AE07822000F0007 /* Build configuration list for PBXNativeTarget "StaticTTTLabel" */;
+			buildPhases = (
+				136AC85B1AE07822000F0007 /* Sources */,
+				136AC85C1AE07822000F0007 /* Frameworks */,
+				136AC85D1AE07822000F0007 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaticTTTLabel;
+			productName = StaticTTTLabel;
+			productReference = 136AC85F1AE07822000F0007 /* libStaticTTTLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		136AC8691AE07822000F0007 /* StaticTTTLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136AC8761AE07822000F0007 /* Build configuration list for PBXNativeTarget "StaticTTTLabelTests" */;
+			buildPhases = (
+				136AC8661AE07822000F0007 /* Sources */,
+				136AC8671AE07822000F0007 /* Frameworks */,
+				136AC8681AE07822000F0007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				136AC86D1AE07822000F0007 /* PBXTargetDependency */,
+			);
+			name = StaticTTTLabelTests;
+			productName = StaticTTTLabelTests;
+			productReference = 136AC86A1AE07822000F0007 /* StaticTTTLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		136AC8571AE07822000F0007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Sqor, Inc.";
+				TargetAttributes = {
+					136AC85E1AE07822000F0007 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					136AC8691AE07822000F0007 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 136AC85A1AE07822000F0007 /* Build configuration list for PBXProject "StaticTTTLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 136AC8561AE07822000F0007;
+			productRefGroup = 136AC8601AE07822000F0007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				136AC85E1AE07822000F0007 /* StaticTTTLabel */,
+				136AC8691AE07822000F0007 /* StaticTTTLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		136AC8681AE07822000F0007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		136AC85B1AE07822000F0007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136AC87B1AE07875000F0007 /* TTTAttributedLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136AC8661AE07822000F0007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		136AC86D1AE07822000F0007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 136AC85E1AE07822000F0007 /* StaticTTTLabel */;
+			targetProxy = 136AC86C1AE07822000F0007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		136AC8711AE07822000F0007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		136AC8721AE07822000F0007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		136AC8741AE07822000F0007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		136AC8751AE07822000F0007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		136AC8771AE07822000F0007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StaticTTTLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		136AC8781AE07822000F0007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StaticTTTLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		136AC85A1AE07822000F0007 /* Build configuration list for PBXProject "StaticTTTLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136AC8711AE07822000F0007 /* Debug */,
+				136AC8721AE07822000F0007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136AC8731AE07822000F0007 /* Build configuration list for PBXNativeTarget "StaticTTTLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136AC8741AE07822000F0007 /* Debug */,
+				136AC8751AE07822000F0007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136AC8761AE07822000F0007 /* Build configuration list for PBXNativeTarget "StaticTTTLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136AC8771AE07822000F0007 /* Debug */,
+				136AC8781AE07822000F0007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 136AC8571AE07822000F0007 /* Project object */;
+}
