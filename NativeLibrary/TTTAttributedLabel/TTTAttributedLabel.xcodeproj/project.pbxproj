@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		136AC86B1AE07822000F0007 /* libStaticTTTLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 136AC85F1AE07822000F0007 /* libStaticTTTLabel.a */; };
-		136AC87B1AE07875000F0007 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 136AC87A1AE07875000F0007 /* TTTAttributedLabel.m */; };
+		136D514E1AE850830084F23B /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 136D514D1AE850830084F23B /* TTTAttributedLabel.m */; };
+		13B7D9FF1AE84FB600CC1DCD /* libTTTAttributedLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B7D9F31AE84FB600CC1DCD /* libTTTAttributedLabel.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		136AC86C1AE07822000F0007 /* PBXContainerItemProxy */ = {
+		13B7DA001AE84FB600CC1DCD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 136AC8571AE07822000F0007 /* Project object */;
+			containerPortal = 13B7D9EB1AE84FB600CC1DCD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 136AC85E1AE07822000F0007;
-			remoteInfo = StaticTTTLabel;
+			remoteGlobalIDString = 13B7D9F21AE84FB600CC1DCD;
+			remoteInfo = TTTAttributedLabel;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		136AC85D1AE07822000F0007 /* CopyFiles */ = {
+		13B7D9F11AE84FB600CC1DCD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
@@ -34,71 +34,71 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		136AC85F1AE07822000F0007 /* libStaticTTTLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStaticTTTLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		136AC86A1AE07822000F0007 /* StaticTTTLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaticTTTLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		136AC8701AE07822000F0007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		136AC8791AE07875000F0007 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
-		136AC87A1AE07875000F0007 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		136D514C1AE850830084F23B /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		136D514D1AE850830084F23B /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		13B7D9F31AE84FB600CC1DCD /* libTTTAttributedLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTTTAttributedLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B7D9FE1AE84FB600CC1DCD /* TTTAttributedLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTAttributedLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B7DA041AE84FB600CC1DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		136AC85C1AE07822000F0007 /* Frameworks */ = {
+		13B7D9F01AE84FB600CC1DCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		136AC8671AE07822000F0007 /* Frameworks */ = {
+		13B7D9FB1AE84FB600CC1DCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				136AC86B1AE07822000F0007 /* libStaticTTTLabel.a in Frameworks */,
+				13B7D9FF1AE84FB600CC1DCD /* libTTTAttributedLabel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		136AC8561AE07822000F0007 = {
+		13B7D9EA1AE84FB600CC1DCD = {
 			isa = PBXGroup;
 			children = (
-				136AC8611AE07822000F0007 /* StaticTTTLabel */,
-				136AC86E1AE07822000F0007 /* StaticTTTLabelTests */,
-				136AC8601AE07822000F0007 /* Products */,
+				13B7D9F51AE84FB600CC1DCD /* TTTAttributedLabel */,
+				13B7DA021AE84FB600CC1DCD /* TTTAttributedLabelTests */,
+				13B7D9F41AE84FB600CC1DCD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		136AC8601AE07822000F0007 /* Products */ = {
+		13B7D9F41AE84FB600CC1DCD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				136AC85F1AE07822000F0007 /* libStaticTTTLabel.a */,
-				136AC86A1AE07822000F0007 /* StaticTTTLabelTests.xctest */,
+				13B7D9F31AE84FB600CC1DCD /* libTTTAttributedLabel.a */,
+				13B7D9FE1AE84FB600CC1DCD /* TTTAttributedLabelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		136AC8611AE07822000F0007 /* StaticTTTLabel */ = {
+		13B7D9F51AE84FB600CC1DCD /* TTTAttributedLabel */ = {
 			isa = PBXGroup;
 			children = (
-				136AC8791AE07875000F0007 /* TTTAttributedLabel.h */,
-				136AC87A1AE07875000F0007 /* TTTAttributedLabel.m */,
+				136D514C1AE850830084F23B /* TTTAttributedLabel.h */,
+				136D514D1AE850830084F23B /* TTTAttributedLabel.m */,
 			);
-			path = StaticTTTLabel;
+			path = TTTAttributedLabel;
 			sourceTree = "<group>";
 		};
-		136AC86E1AE07822000F0007 /* StaticTTTLabelTests */ = {
+		13B7DA021AE84FB600CC1DCD /* TTTAttributedLabelTests */ = {
 			isa = PBXGroup;
 			children = (
-				136AC86F1AE07822000F0007 /* Supporting Files */,
+				13B7DA031AE84FB600CC1DCD /* Supporting Files */,
 			);
-			path = StaticTTTLabelTests;
+			path = TTTAttributedLabelTests;
 			sourceTree = "<group>";
 		};
-		136AC86F1AE07822000F0007 /* Supporting Files */ = {
+		13B7DA031AE84FB600CC1DCD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				136AC8701AE07822000F0007 /* Info.plist */,
+				13B7DA041AE84FB600CC1DCD /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -106,78 +106,78 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		136AC85E1AE07822000F0007 /* StaticTTTLabel */ = {
+		13B7D9F21AE84FB600CC1DCD /* TTTAttributedLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 136AC8731AE07822000F0007 /* Build configuration list for PBXNativeTarget "StaticTTTLabel" */;
+			buildConfigurationList = 13B7DA071AE84FB600CC1DCD /* Build configuration list for PBXNativeTarget "TTTAttributedLabel" */;
 			buildPhases = (
-				136AC85B1AE07822000F0007 /* Sources */,
-				136AC85C1AE07822000F0007 /* Frameworks */,
-				136AC85D1AE07822000F0007 /* CopyFiles */,
+				13B7D9EF1AE84FB600CC1DCD /* Sources */,
+				13B7D9F01AE84FB600CC1DCD /* Frameworks */,
+				13B7D9F11AE84FB600CC1DCD /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = StaticTTTLabel;
-			productName = StaticTTTLabel;
-			productReference = 136AC85F1AE07822000F0007 /* libStaticTTTLabel.a */;
+			name = TTTAttributedLabel;
+			productName = TTTAttributedLabel;
+			productReference = 13B7D9F31AE84FB600CC1DCD /* libTTTAttributedLabel.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		136AC8691AE07822000F0007 /* StaticTTTLabelTests */ = {
+		13B7D9FD1AE84FB600CC1DCD /* TTTAttributedLabelTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 136AC8761AE07822000F0007 /* Build configuration list for PBXNativeTarget "StaticTTTLabelTests" */;
+			buildConfigurationList = 13B7DA0A1AE84FB600CC1DCD /* Build configuration list for PBXNativeTarget "TTTAttributedLabelTests" */;
 			buildPhases = (
-				136AC8661AE07822000F0007 /* Sources */,
-				136AC8671AE07822000F0007 /* Frameworks */,
-				136AC8681AE07822000F0007 /* Resources */,
+				13B7D9FA1AE84FB600CC1DCD /* Sources */,
+				13B7D9FB1AE84FB600CC1DCD /* Frameworks */,
+				13B7D9FC1AE84FB600CC1DCD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				136AC86D1AE07822000F0007 /* PBXTargetDependency */,
+				13B7DA011AE84FB600CC1DCD /* PBXTargetDependency */,
 			);
-			name = StaticTTTLabelTests;
-			productName = StaticTTTLabelTests;
-			productReference = 136AC86A1AE07822000F0007 /* StaticTTTLabelTests.xctest */;
+			name = TTTAttributedLabelTests;
+			productName = TTTAttributedLabelTests;
+			productReference = 13B7D9FE1AE84FB600CC1DCD /* TTTAttributedLabelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		136AC8571AE07822000F0007 /* Project object */ = {
+		13B7D9EB1AE84FB600CC1DCD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Sqor, Inc.";
 				TargetAttributes = {
-					136AC85E1AE07822000F0007 = {
+					13B7D9F21AE84FB600CC1DCD = {
 						CreatedOnToolsVersion = 6.3;
 					};
-					136AC8691AE07822000F0007 = {
+					13B7D9FD1AE84FB600CC1DCD = {
 						CreatedOnToolsVersion = 6.3;
 					};
 				};
 			};
-			buildConfigurationList = 136AC85A1AE07822000F0007 /* Build configuration list for PBXProject "StaticTTTLabel" */;
+			buildConfigurationList = 13B7D9EE1AE84FB600CC1DCD /* Build configuration list for PBXProject "TTTAttributedLabel" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 136AC8561AE07822000F0007;
-			productRefGroup = 136AC8601AE07822000F0007 /* Products */;
+			mainGroup = 13B7D9EA1AE84FB600CC1DCD;
+			productRefGroup = 13B7D9F41AE84FB600CC1DCD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				136AC85E1AE07822000F0007 /* StaticTTTLabel */,
-				136AC8691AE07822000F0007 /* StaticTTTLabelTests */,
+				13B7D9F21AE84FB600CC1DCD /* TTTAttributedLabel */,
+				13B7D9FD1AE84FB600CC1DCD /* TTTAttributedLabelTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		136AC8681AE07822000F0007 /* Resources */ = {
+		13B7D9FC1AE84FB600CC1DCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -187,15 +187,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		136AC85B1AE07822000F0007 /* Sources */ = {
+		13B7D9EF1AE84FB600CC1DCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				136AC87B1AE07875000F0007 /* TTTAttributedLabel.m in Sources */,
+				136D514E1AE850830084F23B /* TTTAttributedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		136AC8661AE07822000F0007 /* Sources */ = {
+		13B7D9FA1AE84FB600CC1DCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,15 +205,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		136AC86D1AE07822000F0007 /* PBXTargetDependency */ = {
+		13B7DA011AE84FB600CC1DCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 136AC85E1AE07822000F0007 /* StaticTTTLabel */;
-			targetProxy = 136AC86C1AE07822000F0007 /* PBXContainerItemProxy */;
+			target = 13B7D9F21AE84FB600CC1DCD /* TTTAttributedLabel */;
+			targetProxy = 13B7DA001AE84FB600CC1DCD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		136AC8711AE07822000F0007 /* Debug */ = {
+		13B7DA051AE84FB600CC1DCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,6 +230,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -255,7 +256,7 @@
 			};
 			name = Debug;
 		};
-		136AC8721AE07822000F0007 /* Release */ = {
+		13B7DA061AE84FB600CC1DCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,6 +273,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -292,29 +294,25 @@
 			};
 			name = Release;
 		};
-		136AC8741AE07822000F0007 /* Debug */ = {
+		13B7DA081AE84FB600CC1DCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		136AC8751AE07822000F0007 /* Release */ = {
+		13B7DA091AE84FB600CC1DCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		136AC8771AE07822000F0007 /* Debug */ = {
+		13B7DA0B1AE84FB600CC1DCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -326,13 +324,13 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = StaticTTTLabelTests/Info.plist;
+				INFOPLIST_FILE = TTTAttributedLabelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		136AC8781AE07822000F0007 /* Release */ = {
+		13B7DA0C1AE84FB600CC1DCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -340,7 +338,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = StaticTTTLabelTests/Info.plist;
+				INFOPLIST_FILE = TTTAttributedLabelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -349,34 +347,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		136AC85A1AE07822000F0007 /* Build configuration list for PBXProject "StaticTTTLabel" */ = {
+		13B7D9EE1AE84FB600CC1DCD /* Build configuration list for PBXProject "TTTAttributedLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				136AC8711AE07822000F0007 /* Debug */,
-				136AC8721AE07822000F0007 /* Release */,
+				13B7DA051AE84FB600CC1DCD /* Debug */,
+				13B7DA061AE84FB600CC1DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		136AC8731AE07822000F0007 /* Build configuration list for PBXNativeTarget "StaticTTTLabel" */ = {
+		13B7DA071AE84FB600CC1DCD /* Build configuration list for PBXNativeTarget "TTTAttributedLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				136AC8741AE07822000F0007 /* Debug */,
-				136AC8751AE07822000F0007 /* Release */,
+				13B7DA081AE84FB600CC1DCD /* Debug */,
+				13B7DA091AE84FB600CC1DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		136AC8761AE07822000F0007 /* Build configuration list for PBXNativeTarget "StaticTTTLabelTests" */ = {
+		13B7DA0A1AE84FB600CC1DCD /* Build configuration list for PBXNativeTarget "TTTAttributedLabelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				136AC8771AE07822000F0007 /* Debug */,
-				136AC8781AE07822000F0007 /* Release */,
+				13B7DA0B1AE84FB600CC1DCD /* Debug */,
+				13B7DA0C1AE84FB600CC1DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 136AC8571AE07822000F0007 /* Project object */;
+	rootObject = 13B7D9EB1AE84FB600CC1DCD /* Project object */;
 }

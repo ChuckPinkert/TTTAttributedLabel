@@ -39,8 +39,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="libStaticTTTLabel.linkwith.cs">
-      <DependentUpon>libStaticTTTLabel.a</DependentUpon>
+    <Compile Include="NativeLibrary\TTTAttributedLabel\TTTAttributedLabelSDK.linkwith.cs">
+      <DependentUpon>TTTAttributedLabelSDK.a</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -51,6 +51,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
   <ItemGroup>
-    <ObjcBindingNativeLibrary Include="libStaticTTTLabel.a" />
+    <ObjcBindingNativeLibrary Include="NativeLibrary\TTTAttributedLabel\TTTAttributedLabelSDK.a" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,1 @@
+sharpie bind --output=TTTAttributedLabel --namespace=TTTAttributedLabel --sdk=iphoneos8.3 StaticTTTLabelSDK.a
